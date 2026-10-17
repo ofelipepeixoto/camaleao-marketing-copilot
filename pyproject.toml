@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "camaleao-marketing-copilot"
+version = "0.1.0"
+description = "Offline marketing observations from bounded local snapshots and exports"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "Carlos Felipe"}]
+dependencies = []
+
+[project.scripts]
+camaleao-marketing = "camaleao_marketing.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
