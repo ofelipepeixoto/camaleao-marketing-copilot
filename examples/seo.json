@@ -1,0 +1,13 @@
+{
+  "schema_version": "camaleao.marketing.input/v1",
+  "context": {
+    "project_id": "synthetic_001",
+    "date_start": "2026-10-01",
+    "date_end": "2026-10-07"
+  },
+  "mode": "seo_page",
+  "page": {
+    "url": "https://example.invalid/services",
+    "html": "<!doctype html><html lang=\"pt-BR\"><head><title>Exemplo sintético de serviço</title><meta name=\"description\" content=\"Demonstração fictícia offline.\"><link rel=\"canonical\" href=\"https://example.invalid/services\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\"}</script></head><body><h1>Serviço fictício</h1></body></html>"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "camaleao.marketing.input/v1",
+  "context": {
+    "project_id": "synthetic_001",
+    "date_start": "2026-10-01",
+    "date_end": "2026-10-07"
+  },
+  "mode": "search_console",
+  "rows": [
+    {
+      "query": "serviço fictício alfa",
+      "page": "https://example.invalid/alfa",
+      "clicks": 1,
+      "impressions": 200,
+      "position": "8.500000"
+    },
+    {
+      "query": "serviço fictício beta",
+      "page": "https://example.invalid/beta",
+      "clicks": 9,
+      "impressions": 100,
+      "position": "2.000000"
+    }
+  ]
+}

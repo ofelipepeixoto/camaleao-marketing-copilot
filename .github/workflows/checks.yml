@@ -1,0 +1,29 @@
+name: Offline marketing contracts
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        python: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Test offline contracts
+        env:
+          PYTHONPATH: src
+        run: python3 -m unittest discover -s tests -v
+      - name: Run three synthetic examples
+        env:
+          PYTHONPATH: src
+        run: |
+          python3 -m camaleao_marketing examples/seo.json --output /tmp/seo-report.json
+          python3 -m camaleao_marketing examples/search-console.json --output /tmp/gsc-report.json
+          python3 -m camaleao_marketing examples/paid-media.json --output /tmp/ads-report.json

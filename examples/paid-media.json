@@ -1,0 +1,38 @@
+{
+  "schema_version": "camaleao.marketing.input/v1",
+  "context": {
+    "project_id": "synthetic_001",
+    "date_start": "2026-10-01",
+    "date_end": "2026-10-07",
+    "currency": "BRL",
+    "conversion_definition": "lead",
+    "attribution_window": "7d_click",
+    "timezone": "America/Sao_Paulo",
+    "data_as_of": "2026-10-08T12:00:00Z"
+  },
+  "mode": "paid_media",
+  "rows": [
+    {
+      "id": "row_001",
+      "campaign": "synthetic_campaign_001",
+      "channel": "google_ads",
+      "currency": "BRL",
+      "spend": "100.00",
+      "revenue": "0.00",
+      "conversions": 5,
+      "clicks": 50,
+      "impressions": 1000
+    },
+    {
+      "id": "row_002",
+      "campaign": "synthetic_campaign_002",
+      "channel": "meta_ads",
+      "currency": "BRL",
+      "spend": "50.00",
+      "revenue": "0.00",
+      "conversions": 2,
+      "clicks": 25,
+      "impressions": 500
+    }
+  ]
+}
