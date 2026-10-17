@@ -1,0 +1,10 @@
+test_batch_document_id_becomes_query_and_path (__main__.Observations.test_batch_document_id_becomes_query_and_path) ... ok
+test_ghost_preflight_does_not_guard_redirects (__main__.Observations.test_ghost_preflight_does_not_guard_redirects) ... ok
+test_max_pages_is_not_total_link_request_bound (__main__.Observations.test_max_pages_is_not_total_link_request_bound) ... ok
+test_parent_env_overrides_project_config (__main__.Observations.test_parent_env_overrides_project_config) ... ok
+test_strapi_writes_after_failed_current_value_read (__main__.Observations.test_strapi_writes_after_failed_current_value_read) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK

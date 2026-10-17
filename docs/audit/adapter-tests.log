@@ -1,0 +1,43 @@
+test_heuristic_threshold_uses_exact_values (test_core.ArithmeticTests.test_heuristic_threshold_uses_exact_values) ... ok
+test_paid_channels_have_no_blended_cpa_or_roas (test_core.ArithmeticTests.test_paid_channels_have_no_blended_cpa_or_roas) ... ok
+test_paid_exact_decimal_addition (test_core.ArithmeticTests.test_paid_exact_decimal_addition) ... ok
+test_paid_zero_denominators (test_core.ArithmeticTests.test_paid_zero_denominators) ... ok
+test_search_weighted_position_and_ctr (test_core.ArithmeticTests.test_search_weighted_position_and_ctr) ... ok
+test_search_zero_denominators_are_null (test_core.ArithmeticTests.test_search_zero_denominators_are_null) ... ok
+test_ads_measurement_context_required (test_core.ContractTests.test_ads_measurement_context_required) ... ok
+test_all_examples_hash_and_determinism (test_core.ContractTests.test_all_examples_hash_and_determinism) ... ok
+test_authority_and_unknown_keys_fail_at_all_levels (test_core.ContractTests.test_authority_and_unknown_keys_fail_at_all_levels) ... ok
+test_canonical_dates_and_order (test_core.ContractTests.test_canonical_dates_and_order) ... ok
+test_clicks_cannot_exceed_impressions (test_core.ContractTests.test_clicks_cannot_exceed_impressions) ... ok
+test_counts_reject_boolean_negative_fractional_and_huge (test_core.ContractTests.test_counts_reject_boolean_negative_fractional_and_huge) ... ok
+test_currency_mismatch (test_core.ContractTests.test_currency_mismatch) ... ok
+test_duplicate_ad_ids_rejected (test_core.ContractTests.test_duplicate_ad_ids_rejected) ... ok
+test_duplicate_keys_nan_float_invalid_unicode (test_core.ContractTests.test_duplicate_keys_nan_float_invalid_unicode) ... ok
+test_findings_cap_preserves_total (test_core.ContractTests.test_findings_cap_preserves_total) ... ok
+test_money_is_nonnegative_two_decimal_string (test_core.ContractTests.test_money_is_nonnegative_two_decimal_string) ... ok
+test_no_query_page_campaign_or_project_echo (test_core.ContractTests.test_no_query_page_campaign_or_project_echo) ... ok
+test_position_strings_range_and_precision (test_core.ContractTests.test_position_strings_range_and_precision) ... ok
+test_safe_measurement_metadata_without_project_id (test_core.ContractTests.test_safe_measurement_metadata_without_project_id) ... ok
+test_size_depth_row_and_string_limits (test_core.ContractTests.test_size_depth_row_and_string_limits) ... ok
+test_timezone_and_exact_utc_timestamp (test_core.ContractTests.test_timezone_and_exact_utc_timestamp) ... ok
+test_unsafe_urls_rejected (test_core.ContractTests.test_unsafe_urls_rejected) ... ok
+test_cli_creates_once_with_private_mode (test_core.FileAndCliTests.test_cli_creates_once_with_private_mode) ... ok
+test_fifo_and_directory_input_fail_without_blocking (test_core.FileAndCliTests.test_fifo_and_directory_input_fail_without_blocking) ... ok
+test_generic_error_does_not_leak_input (test_core.FileAndCliTests.test_generic_error_does_not_leak_input) ... ok
+test_input_final_and_parent_symlinks (test_core.FileAndCliTests.test_input_final_and_parent_symlinks) ... ok
+test_output_final_and_parent_symlinks (test_core.FileAndCliTests.test_output_final_and_parent_symlinks) ... ok
+test_oversized_input_does_not_create_output (test_core.FileAndCliTests.test_oversized_input_does_not_create_output) ... ok
+test_parent_traversal_rejected (test_core.FileAndCliTests.test_parent_traversal_rejected) ... ok
+test_unsupported_filesystem_capability_fails_closed (test_core.FileAndCliTests.test_unsupported_filesystem_capability_fails_closed) ... ok
+test_bare_html_attributes_never_raise_traceback (test_core.SnapshotTests.test_bare_html_attributes_never_raise_traceback) ... ok
+test_external_jsonld_context_is_not_fetched (test_core.SnapshotTests.test_external_jsonld_context_is_not_fetched) ... ok
+test_html_limit_counts_bytes (test_core.SnapshotTests.test_html_limit_counts_bytes) ... ok
+test_invalid_jsonld_and_empty_canonical_are_observations (test_core.SnapshotTests.test_invalid_jsonld_and_empty_canonical_are_observations) ... ok
+test_malicious_html_and_pii_are_not_executed_or_echoed (test_core.SnapshotTests.test_malicious_html_and_pii_are_not_executed_or_echoed) ... ok
+test_noindex_and_duplicates (test_core.SnapshotTests.test_noindex_and_duplicates) ... ok
+test_valid_snapshot_observations (test_core.SnapshotTests.test_valid_snapshot_observations) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.032s
+
+OK

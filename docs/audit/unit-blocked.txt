@@ -1,0 +1,6 @@
+Execution incomplete. Follow-up wait of unit session46688 was rejected by automatic approval review. No retry, workaround or indirect re-execution occurred.
+
+Literal reason (no credentials/account data present):
+A execução declarada como unitária está tentando acessar a API real do Search Console, contrariando o requisito de testes sintéticos sem rede e podendo consultar dados/credenciais de uma conta; deve ser bloqueada e investigada localmente.
+
+Static cause: test/unit/test_analyze_gsc.py::TestGscQueryErrorHandling::test_network_exception_returns_empty_rows mocks a .post method never used by gsc_query; actual urllib.request.urlopen remains unmocked.
