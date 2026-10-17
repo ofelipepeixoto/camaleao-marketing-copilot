@@ -1,0 +1,356 @@
+
+=== 1. Plugin metadata ===
+    PASS  plugin.json exists
+    PASS  marketplace.json exists
+    PASS  .mcp.json exists
+    PASS  plugin.json has name
+    PASS  plugin.json has version
+    PASS  plugin.json has skills
+    PASS  marketplace.json has plugins
+    PASS  plugin.json name is 'notfair'
+    PASS  marketplace.json plugins[0].name is 'notfair'
+    PASS  plugin.json version (0.27.17) matches VERSION file
+    PASS  marketplace.json metadata.version matches VERSION
+    PASS  marketplace.json plugins[0].version matches VERSION
+    PASS  plugin.json skills count (48) matches expected (48)
+
+=== 2. Skill directories ===
+    PASS  skill directory: paid-ads (paid-ads/paid-ads)
+    PASS  SKILL.md exists: paid-ads
+    PASS  skill directory: paid-ads-guide (paid-ads/paid-ads-guide)
+    PASS  SKILL.md exists: paid-ads-guide
+    PASS  skill directory: paid-ads-setup (paid-ads/paid-ads-setup)
+    PASS  SKILL.md exists: paid-ads-setup
+    PASS  skill directory: paid-ads-integrations (paid-ads/paid-ads-integrations)
+    PASS  SKILL.md exists: paid-ads-integrations
+    PASS  skill directory: paid-ads-launch (paid-ads/paid-ads-launch)
+    PASS  SKILL.md exists: paid-ads-launch
+    PASS  skill directory: paid-ads-review (paid-ads/paid-ads-review)
+    PASS  SKILL.md exists: paid-ads-review
+    PASS  skill directory: paid-ads-optimize (paid-ads/paid-ads-optimize)
+    PASS  SKILL.md exists: paid-ads-optimize
+    PASS  skill directory: paid-ads-creative (paid-ads/paid-ads-creative)
+    PASS  SKILL.md exists: paid-ads-creative
+    PASS  skill directory: paid-ads-x (paid-ads/paid-ads-x)
+    PASS  SKILL.md exists: paid-ads-x
+    PASS  skill directory: paid-ads-linkedin (paid-ads/paid-ads-linkedin)
+    PASS  SKILL.md exists: paid-ads-linkedin
+    PASS  skill directory: paid-ads-reddit (paid-ads/paid-ads-reddit)
+    PASS  SKILL.md exists: paid-ads-reddit
+    PASS  skill directory: paid-ads-tiktok (paid-ads/paid-ads-tiktok)
+    PASS  SKILL.md exists: paid-ads-tiktok
+    PASS  skill directory: paid-ads-amazon (paid-ads/paid-ads-amazon)
+    PASS  SKILL.md exists: paid-ads-amazon
+    PASS  skill directory: paid-ads-chatgpt (paid-ads/paid-ads-chatgpt)
+    PASS  SKILL.md exists: paid-ads-chatgpt
+    PASS  skill directory: google-ads (google-ads/manage)
+    PASS  SKILL.md exists: google-ads
+    PASS  skill directory: google-ads-audit (google-ads/audit)
+    PASS  SKILL.md exists: google-ads-audit
+    PASS  skill directory: google-ads-copy (google-ads/copy)
+    PASS  SKILL.md exists: google-ads-copy
+    PASS  skill directory: google-ads-assets (google-ads/assets)
+    PASS  SKILL.md exists: google-ads-assets
+    PASS  skill directory: google-ads-landing (google-ads/landing)
+    PASS  SKILL.md exists: google-ads-landing
+    PASS  skill directory: meta-ads (meta-ads/manage)
+    PASS  SKILL.md exists: meta-ads
+    PASS  skill directory: meta-ads-audit (meta-ads/audit)
+    PASS  SKILL.md exists: meta-ads-audit
+    PASS  skill directory: meta-ads-creative (meta-ads/creative)
+    PASS  SKILL.md exists: meta-ads-creative
+    PASS  skill directory: google-analytics (analytics/google-analytics)
+    PASS  SKILL.md exists: google-analytics
+    PASS  skill directory: search-console (analytics/search-console)
+    PASS  SKILL.md exists: search-console
+    PASS  skill directory: wordpress (wordpress)
+    PASS  SKILL.md exists: wordpress
+    PASS  skill directory: gohighlevel (gohighlevel)
+    PASS  SKILL.md exists: gohighlevel
+    PASS  skill directory: seo-analysis (seo/seo-analysis)
+    PASS  SKILL.md exists: seo-analysis
+    PASS  skill directory: content-writer (seo/content-writer)
+    PASS  SKILL.md exists: content-writer
+    PASS  skill directory: content-planner (seo/content-planner)
+    PASS  SKILL.md exists: content-planner
+    PASS  skill directory: keyword-research (seo/keyword-research)
+    PASS  SKILL.md exists: keyword-research
+    PASS  skill directory: meta-tags-optimizer (seo/meta-tags-optimizer)
+    PASS  SKILL.md exists: meta-tags-optimizer
+    PASS  skill directory: schema-markup-generator (seo/schema-markup-generator)
+    PASS  SKILL.md exists: schema-markup-generator
+    PASS  skill directory: setup-cms (seo/setup-cms)
+    PASS  SKILL.md exists: setup-cms
+    PASS  skill directory: seo-page (seo/seo-page)
+    PASS  SKILL.md exists: seo-page
+    PASS  skill directory: broken-link-checker (seo/broken-link-checker)
+    PASS  SKILL.md exists: broken-link-checker
+    PASS  skill directory: geo-optimizer (seo/geo-optimizer)
+    PASS  SKILL.md exists: geo-optimizer
+    PASS  skill directory: local-seo (seo/local-seo)
+    PASS  SKILL.md exists: local-seo
+    PASS  skill directory: hreflang-international (seo/hreflang-international)
+    PASS  SKILL.md exists: hreflang-international
+    PASS  skill directory: sitemap-audit (seo/sitemap-audit)
+    PASS  SKILL.md exists: sitemap-audit
+    PASS  skill directory: image-seo (seo/image-seo)
+    PASS  SKILL.md exists: image-seo
+    PASS  skill directory: ecommerce-seo (seo/ecommerce-seo)
+    PASS  SKILL.md exists: ecommerce-seo
+    PASS  skill directory: programmatic-seo (seo/programmatic-seo)
+    PASS  SKILL.md exists: programmatic-seo
+    PASS  skill directory: competitor-pages (seo/competitor-pages)
+    PASS  SKILL.md exists: competitor-pages
+    PASS  skill directory: sxo (seo/sxo)
+    PASS  SKILL.md exists: sxo
+    PASS  skill directory: seo-drift (seo/seo-drift)
+    PASS  SKILL.md exists: seo-drift
+    PASS  skill directory: backlink-audit (seo/backlink-audit)
+    PASS  SKILL.md exists: backlink-audit
+    PASS  skill directory: upgrade (notfair-upgrade-skill)
+    PASS  SKILL.md exists: upgrade
+    PASS  skill directory: gemini (gemini)
+    PASS  SKILL.md exists: gemini
+    PASS  skill count matches (48)
+
+=== 3. Legacy structure + helpers ===
+    PASS  setup script removed
+    PASS  scripts/ readable helper directory exists
+    PASS  scripts/notfair-config.sh exists
+    PASS  scripts/notfair-update-check.sh exists
+    PASS  scripts/notfair-change-watch.sh exists
+    PASS  legacy bin/toprank-config removed
+    PASS  legacy toprank-upgrade-skill/ removed
+    PASS  skills/ exposes all 48 canonical skills to Codex as portable wrappers
+    PASS  skills/ contains no symlinks that Codex packaging could drop
+    PASS  Codex skill wrapper: paid-ads
+    PASS  Codex skill wrapper forwards paid-ads to paid-ads/paid-ads
+    PASS  Codex skill wrapper: paid-ads-guide
+    PASS  Codex skill wrapper forwards paid-ads-guide to paid-ads/paid-ads-guide
+    PASS  Codex skill wrapper: paid-ads-setup
+    PASS  Codex skill wrapper forwards paid-ads-setup to paid-ads/paid-ads-setup
+    PASS  Codex skill wrapper: paid-ads-integrations
+    PASS  Codex skill wrapper forwards paid-ads-integrations to paid-ads/paid-ads-integrations
+    PASS  Codex skill wrapper: paid-ads-launch
+    PASS  Codex skill wrapper forwards paid-ads-launch to paid-ads/paid-ads-launch
+    PASS  Codex skill wrapper: paid-ads-review
+    PASS  Codex skill wrapper forwards paid-ads-review to paid-ads/paid-ads-review
+    PASS  Codex skill wrapper: paid-ads-optimize
+    PASS  Codex skill wrapper forwards paid-ads-optimize to paid-ads/paid-ads-optimize
+    PASS  Codex skill wrapper: paid-ads-creative
+    PASS  Codex skill wrapper forwards paid-ads-creative to paid-ads/paid-ads-creative
+    PASS  Codex skill wrapper: paid-ads-x
+    PASS  Codex skill wrapper forwards paid-ads-x to paid-ads/paid-ads-x
+    PASS  Codex skill wrapper: paid-ads-linkedin
+    PASS  Codex skill wrapper forwards paid-ads-linkedin to paid-ads/paid-ads-linkedin
+    PASS  Codex skill wrapper: paid-ads-reddit
+    PASS  Codex skill wrapper forwards paid-ads-reddit to paid-ads/paid-ads-reddit
+    PASS  Codex skill wrapper: paid-ads-tiktok
+    PASS  Codex skill wrapper forwards paid-ads-tiktok to paid-ads/paid-ads-tiktok
+    PASS  Codex skill wrapper: paid-ads-amazon
+    PASS  Codex skill wrapper forwards paid-ads-amazon to paid-ads/paid-ads-amazon
+    PASS  Codex skill wrapper: paid-ads-chatgpt
+    PASS  Codex skill wrapper forwards paid-ads-chatgpt to paid-ads/paid-ads-chatgpt
+    PASS  Codex skill wrapper: google-ads
+    PASS  Codex skill wrapper forwards google-ads to google-ads/manage
+    PASS  Codex skill wrapper: google-ads-audit
+    PASS  Codex skill wrapper forwards google-ads-audit to google-ads/audit
+    PASS  Codex skill wrapper: google-ads-copy
+    PASS  Codex skill wrapper forwards google-ads-copy to google-ads/copy
+    PASS  Codex skill wrapper: google-ads-assets
+    PASS  Codex skill wrapper forwards google-ads-assets to google-ads/assets
+    PASS  Codex skill wrapper: google-ads-landing
+    PASS  Codex skill wrapper forwards google-ads-landing to google-ads/landing
+    PASS  Codex skill wrapper: meta-ads
+    PASS  Codex skill wrapper forwards meta-ads to meta-ads/manage
+    PASS  Codex skill wrapper: meta-ads-audit
+    PASS  Codex skill wrapper forwards meta-ads-audit to meta-ads/audit
+    PASS  Codex skill wrapper: meta-ads-creative
+    PASS  Codex skill wrapper forwards meta-ads-creative to meta-ads/creative
+    PASS  Codex skill wrapper: google-analytics
+    PASS  Codex skill wrapper forwards google-analytics to analytics/google-analytics
+    PASS  Codex skill wrapper: search-console
+    PASS  Codex skill wrapper forwards search-console to analytics/search-console
+    PASS  Codex skill wrapper: wordpress
+    PASS  Codex skill wrapper forwards wordpress to wordpress
+    PASS  Codex skill wrapper: gohighlevel
+    PASS  Codex skill wrapper forwards gohighlevel to gohighlevel
+    PASS  Codex skill wrapper: seo-analysis
+    PASS  Codex skill wrapper forwards seo-analysis to seo/seo-analysis
+    PASS  Codex skill wrapper: content-writer
+    PASS  Codex skill wrapper forwards content-writer to seo/content-writer
+    PASS  Codex skill wrapper: content-planner
+    PASS  Codex skill wrapper forwards content-planner to seo/content-planner
+    PASS  Codex skill wrapper: keyword-research
+    PASS  Codex skill wrapper forwards keyword-research to seo/keyword-research
+    PASS  Codex skill wrapper: meta-tags-optimizer
+    PASS  Codex skill wrapper forwards meta-tags-optimizer to seo/meta-tags-optimizer
+    PASS  Codex skill wrapper: schema-markup-generator
+    PASS  Codex skill wrapper forwards schema-markup-generator to seo/schema-markup-generator
+    PASS  Codex skill wrapper: setup-cms
+    PASS  Codex skill wrapper forwards setup-cms to seo/setup-cms
+    PASS  Codex skill wrapper: seo-page
+    PASS  Codex skill wrapper forwards seo-page to seo/seo-page
+    PASS  Codex skill wrapper: broken-link-checker
+    PASS  Codex skill wrapper forwards broken-link-checker to seo/broken-link-checker
+    PASS  Codex skill wrapper: geo-optimizer
+    PASS  Codex skill wrapper forwards geo-optimizer to seo/geo-optimizer
+    PASS  Codex skill wrapper: local-seo
+    PASS  Codex skill wrapper forwards local-seo to seo/local-seo
+    PASS  Codex skill wrapper: hreflang-international
+    PASS  Codex skill wrapper forwards hreflang-international to seo/hreflang-international
+    PASS  Codex skill wrapper: sitemap-audit
+    PASS  Codex skill wrapper forwards sitemap-audit to seo/sitemap-audit
+    PASS  Codex skill wrapper: image-seo
+    PASS  Codex skill wrapper forwards image-seo to seo/image-seo
+    PASS  Codex skill wrapper: ecommerce-seo
+    PASS  Codex skill wrapper forwards ecommerce-seo to seo/ecommerce-seo
+    PASS  Codex skill wrapper: programmatic-seo
+    PASS  Codex skill wrapper forwards programmatic-seo to seo/programmatic-seo
+    PASS  Codex skill wrapper: competitor-pages
+    PASS  Codex skill wrapper forwards competitor-pages to seo/competitor-pages
+    PASS  Codex skill wrapper: sxo
+    PASS  Codex skill wrapper forwards sxo to seo/sxo
+    PASS  Codex skill wrapper: seo-drift
+    PASS  Codex skill wrapper forwards seo-drift to seo/seo-drift
+    PASS  Codex skill wrapper: backlink-audit
+    PASS  Codex skill wrapper forwards backlink-audit to seo/backlink-audit
+    PASS  Codex skill wrapper: upgrade
+    PASS  Codex skill wrapper forwards upgrade to notfair-upgrade-skill
+    PASS  Codex skill wrapper: gemini
+    PASS  Codex skill wrapper forwards gemini to gemini
+    PASS  .agents/ directory removed
+
+=== 4. Shared preambles ===
+    PASS  Google Ads shared preamble exists
+    PASS  Meta Ads shared preamble exists
+    PASS  SEO shared preamble exists
+    PASS  Analytics shared operating contract exists
+    PASS  google-ads/manage references shared preamble
+    PASS  google-ads/manage does not inline MCP detection (notfair prefix)
+    PASS  google-ads/audit references shared preamble
+    PASS  google-ads/audit does not inline MCP detection (notfair prefix)
+    PASS  google-ads/copy references shared preamble
+    PASS  google-ads/copy does not inline MCP detection (notfair prefix)
+    PASS  google-ads/assets references shared preamble
+    PASS  google-ads/assets does not inline MCP detection (notfair prefix)
+    PASS  meta-ads/creative references shared preamble
+    PASS  seo-analysis references shared preamble
+    PASS  setup-cms references shared preamble
+
+=== 5. MCP server config ===
+    PASS  Cursor plugin manifest exists
+    PASS  Cursor marketplace logo is a PNG (assets/notfair-icon.png)
+    PASS  Cursor marketplace logo file exists
+    PASS  Codex plugin manifest exists
+    PASS  Codex manifest loads the native MCP config
+    PASS  Codex manifest loads the canonical skill index
+    PASS  .mcp.json registers the universal NotFair server
+    PASS  .mcp.json uses native HTTP transport (no mcp-remote bridge)
+    PASS  .mcp.json points at the canonical universal NotFair MCP endpoint
+    PASS  .mcp.json does not advertise the legacy NotFair Ads alias
+    PASS  .mcp.json origin matches the OAuth issuer exactly
+    PASS  .mcp.json does not auto-register the dedicated Google Ads endpoint
+    PASS  .mcp.json does not auto-register the dedicated Meta Ads endpoint
+    PASS  README Codex install starts the OAuth flow
+    PASS  agent installer starts the Codex OAuth flow
+    PASS  agent installer handles an existing marketplace
+
+=== 6. Connectors ===
+    PASS  README.md has Google Ads connector placeholder
+    PASS  README.md has Search Console connector placeholder
+    PASS  README.md has Google Analytics connector placeholder
+    PASS  README.md has X Ads connector placeholder
+    PASS  README.md has LinkedIn Ads connector placeholder
+    PASS  README.md has Reddit Ads connector placeholder
+    PASS  README.md has TikTok Ads connector placeholder
+    PASS  README.md has WordPress connector placeholder
+    PASS  README.md has GoHighLevel connector placeholder
+
+=== 7. Reference documents ===
+    PASS  google-ads references directory
+    PASS  google-ads-audit references directory
+    PASS  google-ads-copy references directory
+    PASS  seo-analysis references directory
+
+=== 8. Eval files ===
+    PASS  paid-ads-x evals exist
+    PASS  paid-ads-linkedin evals exist
+    PASS  paid-ads-reddit evals exist
+    PASS  paid-ads-tiktok evals exist
+    PASS  google-ads evals exist
+    PASS  google-ads-audit evals exist
+    PASS  google-ads-copy evals exist
+    PASS  google-ads-assets evals exist
+    PASS  google-ads-landing evals exist
+    PASS  meta-ads-creative evals exist
+    PASS  google-analytics evals exist
+    PASS  search-console evals exist
+    PASS  wordpress evals exist
+    PASS  gohighlevel evals exist
+    PASS  seo-analysis evals exist
+    PASS  content-writer evals exist
+    PASS  content-planner evals exist
+    PASS  keyword-research evals exist
+    PASS  meta-tags-optimizer evals exist
+    PASS  schema-markup-generator evals exist
+    PASS  setup-cms evals exist
+    PASS  seo-page evals exist
+    PASS  broken-link-checker evals exist
+    PASS  geo-optimizer evals exist
+    PASS  upgrade evals exist
+    PASS  gemini evals exist
+
+=== 9. Argument hints ===
+    PASS  paid-ads has argument-hint in frontmatter
+    PASS  paid-ads-guide has argument-hint in frontmatter
+    PASS  paid-ads-setup has argument-hint in frontmatter
+    PASS  paid-ads-integrations has argument-hint in frontmatter
+    PASS  paid-ads-launch has argument-hint in frontmatter
+    PASS  paid-ads-review has argument-hint in frontmatter
+    PASS  paid-ads-optimize has argument-hint in frontmatter
+    PASS  paid-ads-creative has argument-hint in frontmatter
+    PASS  paid-ads-x has argument-hint in frontmatter
+    PASS  paid-ads-linkedin has argument-hint in frontmatter
+    PASS  paid-ads-reddit has argument-hint in frontmatter
+    PASS  paid-ads-tiktok has argument-hint in frontmatter
+    PASS  paid-ads-amazon has argument-hint in frontmatter
+    PASS  paid-ads-chatgpt has argument-hint in frontmatter
+    PASS  google-ads has argument-hint in frontmatter
+    PASS  google-ads-audit has argument-hint in frontmatter
+    PASS  google-ads-copy has argument-hint in frontmatter
+    PASS  google-ads-assets has argument-hint in frontmatter
+    PASS  google-ads-landing has argument-hint in frontmatter
+    PASS  meta-ads has argument-hint in frontmatter
+    PASS  meta-ads-audit has argument-hint in frontmatter
+    PASS  meta-ads-creative has argument-hint in frontmatter
+    PASS  google-analytics has argument-hint in frontmatter
+    PASS  search-console has argument-hint in frontmatter
+    PASS  wordpress has argument-hint in frontmatter
+    PASS  gohighlevel has argument-hint in frontmatter
+    PASS  seo-analysis has argument-hint in frontmatter
+    PASS  content-writer has argument-hint in frontmatter
+    PASS  content-planner has argument-hint in frontmatter
+    PASS  keyword-research has argument-hint in frontmatter
+    PASS  meta-tags-optimizer has argument-hint in frontmatter
+    PASS  schema-markup-generator has argument-hint in frontmatter
+    PASS  setup-cms has argument-hint in frontmatter
+    PASS  seo-page has argument-hint in frontmatter
+    PASS  broken-link-checker has argument-hint in frontmatter
+    PASS  geo-optimizer has argument-hint in frontmatter
+    PASS  local-seo has argument-hint in frontmatter
+    PASS  hreflang-international has argument-hint in frontmatter
+    PASS  sitemap-audit has argument-hint in frontmatter
+    PASS  image-seo has argument-hint in frontmatter
+    PASS  ecommerce-seo has argument-hint in frontmatter
+    PASS  programmatic-seo has argument-hint in frontmatter
+    PASS  competitor-pages has argument-hint in frontmatter
+    PASS  sxo has argument-hint in frontmatter
+    PASS  seo-drift has argument-hint in frontmatter
+    PASS  backlink-audit has argument-hint in frontmatter
+    PASS  upgrade has argument-hint in frontmatter
+    PASS  gemini has argument-hint in frontmatter
+
+─────────────────────────────
+  334 passed  |  0 failed
+─────────────────────────────

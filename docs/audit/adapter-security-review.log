@@ -1,0 +1,14 @@
+test_changed_types_fail_without_uncaught_errors (__main__.IndependentReview.test_changed_types_fail_without_uncaught_errors) ... ok
+test_html_attribute_without_value_is_safe (__main__.IndependentReview.test_html_attribute_without_value_is_safe) ... ok
+test_input_size_and_row_bounds (__main__.IndependentReview.test_input_size_and_row_bounds) ... ok
+test_no_clobber_and_private_file_mode (__main__.IndependentReview.test_no_clobber_and_private_file_mode) ... ok
+test_ratio_zero_and_channel_separation (__main__.IndependentReview.test_ratio_zero_and_channel_separation) ... ok
+test_symlink_input_and_parent_refused (__main__.IndependentReview.test_symlink_input_and_parent_refused) ... ok
+test_synthetic_source_text_never_echoes (__main__.IndependentReview.test_synthetic_source_text_never_echoes) ... ok
+test_unknown_authority_keys_fail (__main__.IndependentReview.test_unknown_authority_keys_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.018s
+
+OK
+core_sha256=b0e97e39212dde78671b3add4f8ebb76c3c3caae9917345443675ef98f56a99c

@@ -1,0 +1,29 @@
+..F.ss                                                                   [100%]
+=================================== FAILURES ===================================
+_______ test_all_host_configs_and_registry_use_one_versioned_connection ________
+
+    def test_all_host_configs_and_registry_use_one_versioned_connection():
+        expected = {UNIVERSAL_SERVER: {"type": "http", "url": UNIVERSAL_ENDPOINT}}
+        version = (ROOT / "VERSION").read_text().strip()
+        for config in (".mcp.json", "gemini-extension.json"):
+            assert json.loads((ROOT / config).read_text())["mcpServers"] == expected
+        assert json.loads((ROOT / "mcp.json").read_text())["mcpServers"] == {
+            UNIVERSAL_SERVER: {"type": "streamable-http", "url": UNIVERSAL_ENDPOINT}
+        }
+        for manifest in (
+            ".claude-plugin/plugin.json", ".codex-plugin/plugin.json",
+            ".cursor-plugin/plugin.json", "plugin.json", "gemini-extension.json",
+            "server.json",
+        ):
+>           assert json.loads((ROOT / manifest).read_text())["version"] == version
+E           AssertionError: assert '0.27.16' == '0.27.17'
+E
+E             - 0.27.17
+E             ?       ^
+E             + 0.27.16
+E             ?       ^
+
+test/test_mcp_skill_e2e.py:95: AssertionError
+=========================== short test summary info ============================
+FAILED test/test_mcp_skill_e2e.py::test_all_host_configs_and_registry_use_one_versioned_connection
+1 failed, 3 passed, 2 skipped in 0.06s

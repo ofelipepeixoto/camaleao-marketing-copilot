@@ -1,0 +1,235 @@
+{
+  "python_syntax": [
+    {
+      "path": "conftest.py",
+      "ok": true
+    },
+    {
+      "path": "scripts/notfair-content-calendar.py",
+      "ok": true
+    },
+    {
+      "path": "seo/broken-link-checker/scripts/checker.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/_gcloud.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/_http.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/_uid.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/analyze_gsc.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/cms_detect.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/fetch_contentful_content.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/fetch_ghost_content.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/fetch_strapi_content.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/fetch_wordpress_content.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/list_gsc_sites.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/pagespeed.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/preflight.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/preflight_contentful.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/preflight_ghost.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/preflight_strapi.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/preflight_wordpress.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/push_strapi_seo.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/show_gsc.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/show_pagespeed.py",
+      "ok": true
+    },
+    {
+      "path": "seo/seo-analysis/scripts/url_inspection.py",
+      "ok": true
+    },
+    {
+      "path": "test/fixtures/mock-analyze-gsc.py",
+      "ok": true
+    },
+    {
+      "path": "test/helpers/__init__.py",
+      "ok": true
+    },
+    {
+      "path": "test/helpers/eval_store.py",
+      "ok": true
+    },
+    {
+      "path": "test/helpers/llm_judge.py",
+      "ok": true
+    },
+    {
+      "path": "test/helpers/session_runner.py",
+      "ok": true
+    },
+    {
+      "path": "test/helpers/touchfiles.py",
+      "ok": true
+    },
+    {
+      "path": "test/test_ads_skill_llm_eval.py",
+      "ok": true
+    },
+    {
+      "path": "test/test_mcp_skill_e2e.py",
+      "ok": true
+    },
+    {
+      "path": "test/test_skill_e2e.py",
+      "ok": true
+    },
+    {
+      "path": "test/test_skill_llm_eval.py",
+      "ok": true
+    },
+    {
+      "path": "test/test_skill_routing_e2e.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_analyze_gsc.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_broken_link_checker.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_cms_scripts.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_content_calendar_auto_open.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_gcloud_helper.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_plugin_submission.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_safety_rules.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_security_boundaries.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_shell_line_endings.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_skill_descriptions.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_strapi_scripts.py",
+      "ok": true
+    },
+    {
+      "path": "test/unit/test_url_inspection.py",
+      "ok": true
+    }
+  ],
+  "bash_syntax": [
+    {
+      "path": "scripts/notfair-change-watch.sh",
+      "code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "scripts/notfair-config.sh",
+      "code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "scripts/notfair-update-check.sh",
+      "code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "test/fixtures/mock-gcloud.sh",
+      "code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "test/install.test.sh",
+      "code": 0,
+      "stderr": ""
+    }
+  ],
+  "category_workflow_counts": {
+    "analytics": 2,
+    "gemini": 1,
+    "gohighlevel": 1,
+    "google-ads": 5,
+    "meta-ads": 3,
+    "notfair-upgrade-skill": 1,
+    "paid-ads": 14,
+    "seo": 20,
+    "wordpress": 1
+  },
+  "eval_cases": 68,
+  "lines_by_extension": {
+    ".json": 2332,
+    ".yml": 54,
+    ".md": 18807,
+    ".yaml": 72,
+    ".py": 10617,
+    ".sh": 714
+  }
+}
